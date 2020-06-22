@@ -1,0 +1,21 @@
+Term (s),Description,Notation
+"Data object (point, observation, sample, example)","A unit of analysis. Typically, a data object is represented as a **vector** of **features**.","Typically denoted as lower case letter, often bold, e.g., :math:`\bf x` or :math:`{\bf x}_i` or :math:`{\bf x}^{(i)}`, where the subscript or superscript :math:`i` denotes membership in a **data set**." 
+"Data set","A collection of data objects.","Typically denoted as upper case letter, often bold, e.g., :math:`\bf X`. " 
+"Vector","A list (or array) of real values (:math:`\in \{-\infty,\infty\}`).","Typically denoted as bold lower case letter, e.g., :math:`\bf x`. :math:`\bf x \in \mathbb{R}^d`, means that the vector represents a point in a :math:`d`-dimensional vector space.
+An individual element of the vector is denoted as :math:`x_i`." 
+"Matrix","A 2-way array of real values (:math:`\in \{-\infty,\infty\}`).","Typically denoted as bold upper case letter, e.g., :math:`\bf X`. 
+
+ - :math:`\bf X \in \mathbb{R}^{m \times n}`, means that the matrix has :math:`m` rows and :math:`n` columns. A vector is represented as a :math:`m \times 1` matrix.
+ - An individual element of the matrix is denoted as :math:`X_{ij}`." 
+"Transpose",":math:`{\bf X}^\top`, :math:`{\bf x}^\top`","A transpose of a matrix is an operator which flips a matrix over its diagonal, i.e., :math:`X_{ij} = X^\top_{ji}`. Transpose of a vector is a :math:`1 \times d` matrix. " 
+"Matrix multiplication",":math:`{\bf X} = {\bf YZ}`","Only valid if the number of columns in :math:`{\bf Y}` is equal to the number of rows in :math:`{\bf Z}`.
+
+  - The :math:`ij^{th}` entry of the matrix :math:`{\bf Z}` is the dot product (see below) between the :math:`i^{th}` row of :math:`{\bf X}` and :math:`j^{th}` column of :math:`{\bf Y}`, i.e., :math:`Z_{ij} = X_{i*}^\top Y_{*j}` Where :math:`X_{i*}` denotes the :math:`i^{th}` row of :math:`{\bf X}` and :math:`Y_{*j}` is the :math:`j^{th}` column of :math:`{\bf Y}`" 
+"Vector dot (inner) product",":math:`{\bf x}.{\bf x} = \sum_{i=1}^d x_i^2`","In matrix notation, the dot product is expressed as :math:`{\bf x}^\top{\bf x}`" 
+"Data Matrix","A :math:`n \times d` matrix, :math:`{\bf X}`","If each data object in a data set can be represented as a vector in :math:`\mathbb{R}^d`, the data set of :math:`n` such objects is typically arranged as a :math:`n \times d` matrix, :math:`{\bf X}`, where the transpose of each row of the matrix corresponds to a data object, i.e., :math:`{\bf x}_i = X_{i*}^\top`." 
+"Random Variable","A variable whose possible values are outcomes of a random phenomena (distribution)","Typically denoted as an upper case letter, :math:`X` (bold - :math:`{\bf  X}`, if multivariate)"
+"Probability","A measure of the likelihood of an event to occur",":math:`P(A)` denotes the probability of an event :math:`A` to occur.
+
+  - For a categorical random variable, :math:`X`, :math:`P(X=x)` denotes the probability of :math:`X` to take the value :math:`x`
+  - For a continuous random variable, :math:`X`, :math:`p(x)` denotes the probability density of the distribution at the value :math:`x`. We sometimes use :math:`p(x)` even if the random variable is categorical, in which case :math:`p()` is the probability mass function, and :math:`p(x) = P(X=x)`
+  - When talking about more than one random variables, we use :math:`p_X(x)` and :math:`p_Y(y)` to differentiate between the two pdfs"
