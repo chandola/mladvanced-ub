@@ -1,4 +1,4 @@
-.. CSE474574 course webpage documentation master file, created by
+.. CSE610 course webpage documentation master file, created by
    sphinx-quickstart on Fri Mar 17 21:28:07 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -8,7 +8,7 @@ Syllabus
 
 `Computer Science and Engineering <http://www.cse.buffalo.edu/>`_, University at Buffalo 
 
-Spring Semester 2020
+Fall Semester 2020
 
 
 .. raw:: html
@@ -24,45 +24,32 @@ Instructors
 * `Varun Chandola <http://www.cse.buffalo.edu/~chandola>`_ (lead instructor; chandola[at]buffalo.edu)
 
 * Pranav Girish Sankhe (TA; pranavgi[at]buffalo.edu)
-* Yang Zhao (TA; yzhao63[at]buffalo.edu)
-* Seokmin Richard Choi (TA; seokminc[at]buffalo.edu)
-* Zhanghexuan Ji (TA; zhanghex[at]buffalo.edu)
-* Dakota Handzlik (UTA; dh33[at]buffalo.edu))
 
 .. note::
    Students are strongly encouraged to use the Piazza's private messaging option to contact the intructors to ensure that the messages are dealt with promptly. 
 
 Class Website
 -------------
-https://cse.buffalo.edu/~chandola/machinelearning.html
+https://cse.buffalo.edu/~chandola/advancedmachinelearning.html
 
 Meeting times and locations
 ----------------------------
-* _Until March 13th _ - Mondays, Wednesdays and Fridays, 1.00 PM - 1.50 PM, 20 Knox Hall. 
-* From March 23rd - **The lecture will be delivered as recorded videos available on** `UBLearns <https://ub.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=95cf0811-2140-4ead-a4a9-ab44014168ea>`_ [needs UB login], **due to the COVID-19 induced transition to online classes.**
+* Tuesdays and Thursdays, 11.00 AM - 12.20 PM, TBA. 
 
 +-----------+-------------------------------+---------------------------------------+
 | Who?      | When?                         | Where?                                |
 +===========+===============================+=======================================+
-| Chandola  |Tuesdays, 12.00 PM - 2.00 PM   |213 Capen Hall (Inside Capen 212 Suite)|
+| Chandola  |Wednesdays, 12.00 PM - 2.00 PM |213 Capen Hall (Inside Capen 212 Suite)|
 +-----------+-------------------------------+---------------------------------------+
-| Sankhe    |Wednesdays, 10.00 AM - 12.00 PM| Capen 212 Student Lounge              |
-+-----------+-------------------------------+---------------------------------------+
-| Zhao      |Fridays, 10.30 AM - 11.30 AM   | Davis 3rd Floor                       |
-+-----------+-------------------------------+---------------------------------------+
-| Handzlik  |Wednesdays, 3.00 PM - 5.00 PM  | Capen 212 Student Lounge              |
-+-----------+-------------------------------+---------------------------------------+
-| Choi      |Mondays, 9.30 AM - 10.30 AM    | Davis 3rd Floor                       |
-+-----------+-------------------------------+---------------------------------------+
-| Ji        |Mondays, 3.00 PM - 5.00 PM     | Davis 3rd Floor                       |
+| Sankhe    |TBA                            | Capen 212 Student Lounge              |
 +-----------+-------------------------------+---------------------------------------+
 
 .. note::
-   All office hours will conducted remotely due to the COVID-19 induced transition to online classes from March 23rd onwards.
+  We are still determining the format of lectures and office hours (online, in-person, or both), due to the COVID-19 related issues. 
 
 Prerequisites
 ---------------
-CSE 250 and (EAS 305 or MTH 411 or STA 301 or MTH 309).
+CSE474/574 (Introduction to Machine Learning) or equivalent
 
 Topic Schedule
 ---------------
