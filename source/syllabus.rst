@@ -23,8 +23,6 @@ Instructors
 
 * `Varun Chandola <http://www.cse.buffalo.edu/~chandola>`_ (lead instructor; chandola[at]buffalo.edu)
 
-* Pranav Girish Sankhe (TA; pranavgi[at]buffalo.edu)
-
 .. note::
    Students are strongly encouraged to use the Piazza's private messaging option to contact the intructors to ensure that the messages are dealt with promptly. 
 
@@ -41,11 +39,9 @@ Meeting times and locations
 +===========+===============================+=======================================+
 | Chandola  |Wednesdays, 12.00 PM - 2.00 PM |213 Capen Hall (Inside Capen 212 Suite)|
 +-----------+-------------------------------+---------------------------------------+
-| Sankhe    |TBA                            | Capen 212 Student Lounge              |
-+-----------+-------------------------------+---------------------------------------+
 
 .. note::
-  We are still determining the format of lectures and office hours (online, in-person, or both), due to the COVID-19 related issues. 
+ The class will be held in hybrid-flexible or hyflex mode. 
 
 Prerequisites
 ---------------
