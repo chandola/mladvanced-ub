@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# CSE474/574 course webpage documentation build configuration file, created by
+# CSE610 course webpage documentation build configuration file, created by
 # sphinx-quickstart on Fri Mar 17 21:28:07 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,8 +21,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import ablog
-
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -33,14 +31,7 @@ import ablog
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.mathjax',
-    'sphinx.ext.githubpages',
-    'ablog']
-
-# 2. Add ablog templates path
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
-templates_path.append(ablog.get_html_templates_path())
+    'sphinx.ext.githubpages']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -52,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'CSE 474/574 - Introduction to Machine Learning'
+project = 'CSE 610 - Bayesian Non-Parametric Machine Learning'
 copyright = '2020, Varun Chandola'
 author = 'Varun Chandola'
 
@@ -127,7 +118,7 @@ html_context = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CSE474574coursewebpagedoc'
+htmlhelp_basename = 'CSE610coursewebpagedoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -154,7 +145,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CSE474574coursewebpage.tex', 'CSE474/574 course webpage Documentation',
+    (master_doc, 'CSE610coursewebpage.tex', '610 course webpage Documentation',
      'Varun Chandola', 'manual'),
 ]
 
@@ -164,7 +155,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cse474574coursewebpage', 'CSE474/574 course webpage Documentation',
+    (master_doc, 'cse610coursewebpage', '610 course webpage Documentation',
      [author], 1)
 ]
 
@@ -175,8 +166,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CSE474coursewebpage', 'CSE474/574 course webpage Documentation',
-     author, 'CSE474574coursewebpage', 'CSE474/574 course webpage Documentation',
+    (master_doc, 'CSE610coursewebpage', 'CSE610 course webpage Documentation',
+     author, 'CSE610coursewebpage', 'CSE610 course webpage Documentation',
      'Miscellaneous'),
 ]
 
