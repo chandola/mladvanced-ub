@@ -26,96 +26,33 @@ Instructors
 .. note::
    Students are strongly encouraged to use the Piazza's private messaging option to contact the intructors to ensure that the messages are dealt with promptly. 
 
-Class Website
--------------
-https://cse.buffalo.edu/~chandola/advancedmachinelearning.html
-
 Meeting times and locations
 ----------------------------
-* Tuesdays and Thursdays, 11.00 AM - 12.20 PM, TBA. 
+.. csv-table::
+   :file: timings.csv
+   :header: "", "Day", "Time", "Location"
+   :widths: 8, 15, 12, 10
 
-+-----------+-------------------------------+---------------------------------------+
-| Who?      | When?                         | Where?                                |
-+===========+===============================+=======================================+
-| Chandola  |Wednesdays, 12.00 PM - 2.00 PM |213 Capen Hall (Inside Capen 212 Suite)|
-+-----------+-------------------------------+---------------------------------------+
-
-.. note::
- The class will be held in hybrid-flexible or hyflex mode. 
+.. attention:: 
+ This class will taught in a **HyFlex Mode** (See `here <https://registrar.buffalo.edu/schedules/fall-2020.php>`_ for more information about the various modes of teaching offered in the department this fall). The HyFlex mode is defined as: "*... students may be able to choose among coming to campus for an in-person experience, viewing the course lecture live via videoconferencing, or working through the course materials at a convenient time for them.*"
 
 Prerequisites
 ---------------
 CSE474/574 (Introduction to Machine Learning) or equivalent
 
+MS Project
+---------------
+The final project in this class satisfies the MS project requirement for the CSE Masters program.
+
 Topic Schedule
 ---------------
 .. role:: red
 .. role:: gr
-.. tabularcolumns:: |l|l|p{2cm}|
+.. csv-table::
+   :file: topics.csv
+   :header: "Week", "Topic", "Resources"
+   :widths: 3, 20, 10
 
-+------------+-----------------------------------+--------------------------------------------------------------+
-| Week       | Topic                             | Pre-requisites                                               |
-+============+===================================+==============================================================+
-| 1          | Introduction and Basics           |                                                              | 
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Supervised Learning::Linear Models**                                                                        |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 1          | Linear Regression                 | Linear Algebra,Gradient Descent Optimization, Matrix Calculus|
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 2          | Logistic Regression/Perceptrons   | Newton's Method                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 2-3        | Support Vector Machines           | Constrained Optimization, Lagrangian Methods                 |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Supervised Learning::Non-linear Models**                                                                    |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 4          | Non-linear Regression             |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 4          | Regularization                    |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 5-6        | Neural Networks                   |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Kernel Methods**                                                                                            |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 7          | Kernel Regression                 |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 7          | Kernel Support Vector Machines    |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| :red:`Spring Break`                                                                                           |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Statistical Learning** (Continued)                                                                          |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 9          | Generative Models                 | Laws of Probability, Statistical Distributions, Moments      |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 9-10       | Bayesian Learning Methods         | Bayes Rule                                                   |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 10         | Bayesian Classification           |                                                              |
-|            |                                   |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 11         | Bayesian Linear Regression        |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Fairness and Transparency Issues**                                                                          |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 12         | Fairness in Machine Learning      |                                                              |
-|            | (PA3 Review)                      |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 12         | Interpretable Models              |                                                              |
-|            | (Decision Trees)                  |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Unsupervised Learning**                                                                                     |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 13         | Clustering (k-Means/Spectral)     | Linear Algebra (Eigenvalue Decomposition)                    |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 14         | Dimensionality Reduction Methods  |                                                              |
-|            | (Principal Component Analysis)    |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Reinforcement Learning**                                                                                    |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 15         | Reinforcement Learning            |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| **Wrap-up**                                                                                                   |
-+------------+-----------------------------------+--------------------------------------------------------------+
-| 16         | Machine Learning Best Practices   |                                                              |
-+------------+-----------------------------------+--------------------------------------------------------------+
 
 Course Deliverables
 -------------------
@@ -175,49 +112,25 @@ Assignments (Tentative Schedule)
 
 Course Texts
 ---------------
-* Tom Mitchell, Machine Learning. McGraw-Hill, 1997.
-* Kevin Murphy, Machine Learning: A Probabilistic Perspective, MIT Press, 2012.
-* Chris Bishop, Pattern Recognition and Machine Learning, Springer, 2006.
-* David Mackay, Information Theory, Inference, and Learning Algorithms, Cambridge Press, 2003.
-* Trevor Hastie, Robert Tibshirani and Jerome Friedman, The Elements of Statistical Learning. Springer, 2009.
-* Richard S. Sutton and Andrew G. Bart, Reinforcement Learning: An Introduction. MIT Press, 2015.
+* Carl Rasmussen and Christopher Williams, `Gaussian Process for Machine Learning <http://gaussianprocess.org/gpml/chapters/>`_, MIT Press, 2006.
+* [PONotes] Peter Orbanz, :download:`Lecture Notes on Bayesian Nonparametricsi <porbanz_BNP_draft.pdf>`, *unpublished*, 2014.
 
 Grading
 ---------
-* Short weekly quizzes using Gradiance (12) -- 20%
-* Programming Assignments (3) -- 45%
-* Mid-term Exam (in-class, open book/notes) -- 15%
-* Final Exam (in-class, open book/notes) -- 20%
-* Final grade (*Tentative*)
-
-.. hlist::
-    :columns: 2
-
-    - A  [92.5,100]
-    - A- [87.5,92.5)
-    - B+ [82.5,87.5)
-    - B  [77.5,82.5)
-    - B- [72.5,77.5)
-    - C+ [67.5,72.5)
-    - C  [62.5,67.5)
-    - C- [57.5,62.5)
+* Homeworks (6) -- 60%
+* Final Project  -- 40%
+* Final grade cut-offs (*TBA*)
 
 Exams
 ---------------
-* **Mid-term Exam** March 13, 1.00 PM - 2.00 PM, 20 Knox Hall
-* **Final Exam** May 15, 7.15 PM - 10.15 PM, 101 Davis Hall/114 Hoch Hall
+* This course has no exams 
 
 Expectations
 -------------
 * Students are expected to act in a professional manner. A student’s grade may be reduced due to unprofessional or disruptive behavior. Examples include coming to class late, texting (or otherwise using your cell phone) during class, your cell phone ringing during class and/or exams, etc.
-* Programming assignments will be graded and returned to students.
-* :red:`Late submission of assignments will receive a grade of zero.`
-* :red:`No late submission of Gradiance quizzes are allowed. The quizzes will automatically become unavailable immediately after the due date and no accomodations will be made for missed quizzes.`
-* Students are encouraged to discuss assignments and share ideas, but each student must independently write and submit their own solution.
-* Makeup exams will be given in the following circumstances only: 
-
-  1. You contact the instructor prior to the exam
-  2. You have a valid and documented reason to miss the exam
+* Homeworks will be graded and returned to students.
+* :red:`Late submission of homeworks will receive a grade of zero.`
+* Students are encouraged to discuss homeworks and share ideas, but each student must independently write and submit their own solution.
 
 Accessibility Services and Special Needs
 -----------------------------------------
@@ -233,15 +146,13 @@ This course will operate with a zero-tolerance policy regarding cheating and oth
   
    Against the ML honor code to:
 
-   1. Collaborate on Gradiance quizzes
-   2. Collaborate or cheat during exams
-   3. Submit someone else’s work, including from the internet, as one’s own for any submission
-   4. Misuse Piazza forum
+   1. Submit someone else’s work, including from the internet, as one’s own for any submission
+   2. Misuse Piazza forum
 
    You are allowed to:
 
    1. Have discussions about homeworks. Every student should submit own homework with names of students in the discussion group explicitly mentioned.
-   2. Collaborate in groups of 3 for programming assignments. One submission is required for each group.
+   2. Collaborate in a group of 3 for the final project. One submission is required for each group.
 
 .. warning:: 
    * Violation of ML honor code and departmental policy will result in an automatic F for the concerned submission
