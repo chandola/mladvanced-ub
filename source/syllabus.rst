@@ -51,68 +51,59 @@ Topic Schedule
 .. csv-table::
    :file: topics.csv
    :header: "Week", "Topic", "Resources"
-   :widths: 3, 20, 10
+   :widths: 9,30,30 
 
 
 Course Deliverables
 -------------------
 
-+---------------+--------------+-----------+
-| Deliverable   | Release Date | Due Date  |
-+===============+==============+===========+
-| Gradiance 0   | Jan 29       |  *Feb 4*  |
-+---------------+--------------+-----------+
-| Gradiance 1   | Feb 5        |  Feb 11   |
-+---------------+--------------+-----------+
-| :gr:`PA 1`    | :gr:`Feb 11` |:gr:`Mar 6`|
-+---------------+--------------+-----------+
-| Gradiance 2   | Feb 12       |  Feb 18   |
-+---------------+--------------+-----------+
-| Gradiance 3   | Feb 19       |  Feb 25   |
-+---------------+--------------+-----------+
-| :gr:`PA 2`    | :gr:`Mar 6`  |:gr:`Apr13`|
-+---------------+--------------+-----------+
-| Gradiance 4   | Feb 26       |  Mar 3    |
-+---------------+--------------+-----------+
-| Gradiance 5   | Mar 4        |  Mar 10   |
-+---------------+--------------+-----------+
-| Gradiance 6   | Mar 11       |  *Mar 24* |
-+---------------+--------------+-----------+
-| Gradiance 7   | Mar 25       |  Mar 31   |
-+---------------+--------------+-----------+
-| :gr:`PA 3`    | :gr:`Apr 13` |:gr:`May 8`|
-+---------------+--------------+-----------+
-| Gradiance 8   | Apr 1        |  Apr 7    |
-+---------------+--------------+-----------+
-| Gradiance 9   | Apr 8        |  Apr 14   |
-+---------------+--------------+-----------+
-| Gradiance 10  | Apr 15       |  Apr 21   |
-+---------------+--------------+-----------+
-| Gradiance 11  | Apr 22       |  Apr 28   |
-+---------------+--------------+-----------+
-| Gradiance 12  | Apr 29       |  May 5    |
-+---------------+--------------+-----------+
++------------------------+--------------+-----------+
+| Deliverable            | Release Date | Due Date  |
++========================+==============+===========+
+| Homework 0             | Sep 1        |  Sep 8    |
++------------------------+--------------+-----------+
+| Homework 1             | Sep 8        |  Sep 22   |
++------------------------+--------------+-----------+
+| Project Description    |              |  Sep 29   |
++------------------------+--------------+-----------+
+| Homework 2             | Sep 22       |  Oct 6    |
++------------------------+--------------+-----------+
+| Homework 3             | Oct 6        |  Oct 20   |
++------------------------+--------------+-----------+
+| Project Status Report  |              |  Oct 27   |
++------------------------+--------------+-----------+
+| Homework 4             | Oct 20       |  Nov 3    |
++------------------------+--------------+-----------+
+| Homework 5             | Nov 3        |  Nov 17   |
++------------------------+--------------+-----------+
+| Homework 6             | Nov 17       |  Dec 8    |
++------------------------+--------------+-----------+
+| Project Presentation   |              |  Dec 1,4  |
++------------------------+--------------+-----------+
+| Project Final Report   |              |  Dec 15   |
++------------------------+--------------+-----------+
 
 .. note::
-  * Gradiance quizzes
+  * Homeworks 
 
-    * Will be released every Wednesday at 9.00 AM EST
-    * Due next Tuesday at 11.59 PM EST
-    * Gradiance 0 will not be evaluated (warm up)
-    * Gradiance 6 will be released on March 11 but will be due on March 24 due to Spring Recess
+    * Will be released every Tuesday at 9.00 AM EST
+    * Due in two weeks before the end of the Tuesday lecture
+    * Homework 0 will not be evaluated (warm up)
+    * All homeworks will be submitted electronically on UBLearns
+    * Homeworks will include mathematical derivations, analytical proofs and data analysis 
 
-  * All assignments are electronically due on Fridays by 12.59 PM EST through UBLearns.
-  * Hard copies of assignment reports will be due in-class on Fridays before the end of the class.
-
-Assignments (Tentative Schedule)
+Term Project
 ---------------------------------
-  * Programming Assignment 1 - This assignment will focus on building linear models for supervised learning. This will include implementing a linear regression model for regression, and three classification models, viz., logistic regression, perceptron, and support vector machine (SVM).
-  * Programming Assignment 2 - In this assignment, your task is to implement a Multilayer Perceptron the neural network and evaluate its performance in classifying handwritten digits. You will also use the same network to analyze a more challenging hand-drawn images dataset and compare the performance of the neural network against a deep neural network using the TensorFlow library.
-  * Programming Assignment 3 - This programming assignment has two parts. In the first part, you will implement a Naive Bayes Classifier and test it on a publicly available data set. In the second part, you will manipulate the data characteristics to understand how classifiers get impacted by the underlying bias in the training data. 
+  * Students will work in groups of 3 on a semester long project.
+  * The choice of topic will be flexible but should involve using the models discussed in class.
+  * A two-page project description, detailing the plan, expected outcomes, and milestones, will be due (submitted electronically via UBLearns) on September 29.
+  * A two-page mid-semester report project description, detailing the plan, expected outcomes, and milestones, will be due (submitted electronically via UBLearns) on September 29.
+  * Each group will make a 15 minute project presentation during the last week of classes (Dec 1 and 4) detailing their findings.
+  * A 5-10 page final project report, detailing the methodology and findings of the project, will be due at the end of the semester on December 15th.
 
 Course Texts
 ---------------
-* Carl Rasmussen and Christopher Williams, `Gaussian Process for Machine Learning <http://gaussianprocess.org/gpml/chapters/>`_, MIT Press, 2006.
+* [GPMLBook] Carl Rasmussen and Christopher Williams, `Gaussian Process for Machine Learning <http://gaussianprocess.org/gpml/chapters/>`_, MIT Press, 2006.
 * [PONotes] Peter Orbanz, :download:`Lecture Notes on Bayesian Nonparametrics <porbanz_BNP_draft.pdf>`, *unpublished*, 2014.
 
 Grading
