@@ -113,7 +113,7 @@ Assignments (Tentative Schedule)
 Course Texts
 ---------------
 * Carl Rasmussen and Christopher Williams, `Gaussian Process for Machine Learning <http://gaussianprocess.org/gpml/chapters/>`_, MIT Press, 2006.
-* [PONotes] Peter Orbanz, :download:`Lecture Notes on Bayesian Nonparametricsi <porbanz_BNP_draft.pdf>`, *unpublished*, 2014.
+* [PONotes] Peter Orbanz, :download:`Lecture Notes on Bayesian Nonparametrics <porbanz_BNP_draft.pdf>`, *unpublished*, 2014.
 
 Grading
 ---------
