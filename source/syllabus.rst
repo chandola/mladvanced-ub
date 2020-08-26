@@ -34,11 +34,15 @@ Meeting times and locations
    :widths: 8, 15, 12, 10
 
 .. attention:: 
- This class will taught in a **HyFlex Mode** (See `here <https://registrar.buffalo.edu/schedules/fall-2020.php>`_ for more information about the various modes of teaching offered in the department this fall). The HyFlex mode is defined as: "*... students may be able to choose among coming to campus for an in-person experience, viewing the course lecture live via videoconferencing, or working through the course materials at a convenient time for them.*"
+ This class will taught in a **HyFlex Mode** (See `here <https://registrar.buffalo.edu/schedules/fall-2020.php>`_ for more information about the various modes of teaching offered in the department this fall). The HyFlex mode is defined as: "*... students may be able to choose among coming to campus for an in-person experience, viewing the course lecture live via videoconferencing, or working through the course materials at a convenient time for them.*" 
 
 Prerequisites
 ---------------
-CSE474/574 (Introduction to Machine Learning) or equivalent
+CSE474/574 (Introduction to Machine Learning) or equivalent. A strong background in linear algebra and probability/statistics is expected. 
+
+Programming Requirements
+------------------------
+All in-class demonstrations and homework-related codes will be in ``Python`` (> 3.5). We will use ``GPy``, a native library for Gaussian Process (See `<https://sheffieldml.github.io/GPy/>`_ for details and installation instructions). Additionally, we will also explore two modern libraries, `GPyTorch <https://gpytorch.ai>`_ and `GPflow <https://github.com/GPflow/GPflow>`_ to develop scalable GP based solutions for large scale problems.
 
 MS Project
 ---------------
