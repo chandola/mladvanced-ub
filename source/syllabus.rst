@@ -42,7 +42,7 @@ CSE474/574 (Introduction to Machine Learning) or equivalent. A strong background
 
 Programming Requirements
 ------------------------
-All in-class demonstrations and homework-related codes will be in ``Python`` (> 3.5). We will use ``GPy``, a native library for Gaussian Process (See `<https://sheffieldml.github.io/GPy/>`_ for details and installation instructions). Additionally, we will also explore two modern libraries, `GPyTorch <https://gpytorch.ai>`_ and `GPflow <https://github.com/GPflow/GPflow>`_ to develop scalable GP based solutions for large scale problems.
+All in-class demonstrations and homework-related codes will be in ``Python 3.x``. We will use ``GPy``, a native library for Gaussian Process (See `<https://sheffieldml.github.io/GPy/>`_ for details and installation instructions). Additionally, we will also explore two modern libraries, `GPyTorch <https://gpytorch.ai>`_ and `GPflow <https://github.com/GPflow/GPflow>`_ to develop scalable GP based solutions for large scale problems.
 
 MS Project
 ---------------
