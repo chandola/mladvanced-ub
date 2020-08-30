@@ -34,7 +34,7 @@ Meeting times and locations
    :widths: 8, 15, 12, 10
 
 .. attention:: 
- This class will taught in a **HyFlex Mode** (See `here <https://registrar.buffalo.edu/schedules/fall-2020.php>`_ for more information about the various modes of teaching offered in the department this fall). The HyFlex mode is defined as: "*... students may be able to choose among coming to campus for an in-person experience, viewing the course lecture live via videoconferencing, or working through the course materials at a convenient time for them.*" 
+ This class will taught in a **HyFlex Mode**. The class content covered during the in-person lectures will be available online through UB Panopto, both live and recorded. A separate session on zoom will be available during the lectures for asking questions. All office hours will be conducted remotely on zoom.
 
 Prerequisites
 ---------------
