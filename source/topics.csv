@@ -1,13 +1,13 @@
-1,Introduction, `Primer <https://www.github.com/ubdsgroup/mladvanced-notebooks/blob/master/Course%20Primer.ipynb>`_
-1,Machine Learning Models, [PONotes] Chapter 1
-1,Bayesian Non-parametric Models, [PONotes] Chapter 1
-2,Introduction to Gaussian Processes, [GPMLBook] Chapters 1 and 2
-3-4,Gaussian Process Regression, [GPMLBook] Chapters 2 and 4
-5-6,Classification with GPs, [GPMLBook] Chapter 3
-7,Model Selection for GP Models, [GPMLBook] Chapter 5
-8,Scaling GPs for Big Data, [GPMLBook] Chapter 8
-9,Dimensionality Reduction with GPs, Selected readings
-10,Deep Learning with GPs, Selected readings
-11-12,Clustering and Dirichlet Process, [PONotes] Chapter 2
-13,*Thanksgiving Break*, *No class*
-14,**Final Project Presentations**,
+1,Introduction, `Primer <https://www.github.com/ubdsgroup/mladvanced-notebooks/blob/master/Course%20Primer.ipynb>`_ `Introduction <https://www.github.com/ubdsgroup/mladvanced-notebooks/blob/master/Course%20Introduction.ipynb>`_,
+1,Machine Learning Models, ,[PONotes] Chapter 1
+1,Bayesian Non-parametric Models, ,[PONotes] Chapter 1
+2,Introduction to Gaussian Processes, ,[GPMLBook] Chapters 1 and 2
+3-4,Gaussian Process Regression, ,[GPMLBook] Chapters 2 and 4
+5-6,Classification with GPs, ,[GPMLBook] Chapter 3
+7,Model Selection for GP Models, ,[GPMLBook] Chapter 5
+8,Scaling GPs for Big Data, ,[GPMLBook] Chapter 8
+9,Dimensionality Reduction with GPs, ,Selected readings
+10,Deep Learning with GPs, ,Selected readings
+11-12,Clustering and Dirichlet Process, ,[PONotes] Chapter 2
+13,*Thanksgiving Break*, *No class*,
+14,**Final Project Presentations**,,

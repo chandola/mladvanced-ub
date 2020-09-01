@@ -54,8 +54,8 @@ Topic Schedule
 .. role:: gr
 .. csv-table::
    :file: topics.csv
-   :header: "Week", "Topic", "Resources"
-   :widths: 9,30,30 
+   :header: "Week", "Topic", "Notebook", "Resources"
+   :widths: 9,30,20,20 
 
 
 Course Deliverables
