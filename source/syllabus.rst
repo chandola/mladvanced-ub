@@ -45,7 +45,7 @@ Programming Requirements
 All in-class demonstrations and homework-related codes will be in ``Python 3.x``. We will use ``GPy``, a native library for Gaussian Process (See `<https://sheffieldml.github.io/GPy/>`_ for details and installation instructions). Additionally, we will also explore two modern libraries, `GPyTorch <https://gpytorch.ai>`_ and `GPflow <https://github.com/GPflow/GPflow>`_ to develop scalable GP based solutions for large scale problems.
 
 CSE MS Requirements 
----------------
+-------------------
 - The final project in this class satisfies the MS project requirement for the CSE Masters program.
 - This class will be considered as an AI focus area course, with regards to the CSE graduate requirements.
 
