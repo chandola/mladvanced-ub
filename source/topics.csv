@@ -1,6 +1,5 @@
 1,Introduction, `Primer <https://www.github.com/ubdsgroup/mladvanced-notebooks/blob/master/Course%20Primer.ipynb>`_ `Introduction <https://www.github.com/ubdsgroup/mladvanced-notebooks/blob/master/Course%20Introduction.ipynb>`_,
-1,Machine Learning Models, ,[PONotes] Chapter 1
-1,Bayesian Non-parametric Models, ,[PONotes] Chapter 1
+1,Machine Learning Models,`Models <https://www.github.com/ubdsgroup/mladvanced-notebooks/blob/master/Machine%20Learning%20Models.ipynb>`_ ,[PONotes] Chapter 1
 2,Introduction to Gaussian Processes, ,[GPMLBook] Chapters 1 and 2
 3-4,Gaussian Process Regression, ,[GPMLBook] Chapters 2 and 4
 5-6,Classification with GPs, ,[GPMLBook] Chapter 3
