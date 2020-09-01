@@ -48,6 +48,9 @@ MS Project
 ---------------
 The final project in this class satisfies the MS project requirement for the CSE Masters program.
 
+.. note::
+ This class will be considered as an AI focus area course, with regards to the CSE graduate requirements.
+
 Topic Schedule
 ---------------
 .. role:: red
