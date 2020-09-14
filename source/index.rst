@@ -6,6 +6,7 @@ CSE610
    :caption: Contents:
 
    syllabus
+   projects
    glossary
 
 Other Links
