@@ -37,7 +37,7 @@ All students will access to a GPU-enabled node. To access the resource do the fo
 3. Choose either `Jupyter Lab` or `Jupyter Notebook` resource from the following page. You will be asked to authenticate again using your UB email and password.
 4. You can now create new notebooks and utilize the resource.  
 
-   .. note:: While the Python environment has several relevant libraries, such as ``numpy``, ``pandas`, ``matplotlib``, ``GPy``, ``scikit-learn``, ``GPFlow``, ``Tensorflow+Keras``, contact me if you need any additional libraries.
+   .. note:: While the Python environment has several relevant libraries, such as ``numpy``, ``pandas``, ``matplotlib``, ``GPy``, ``scikit-learn``, ``GPFlow``, ``Tensorflow+Keras``, contact me if you need any additional libraries.
 5. You can use the **One Drive** resource to upload data files to the environment. The resource is available from your browser by going to::
 
         https://onedrive.live.com/about/en-us/signin/
