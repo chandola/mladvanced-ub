@@ -23,3 +23,25 @@ Bayesian optimization using Gaussian Processes
 Deep learning methods and Gaussian Processes
 ********************************************
 There are `connections <https://arxiv.org/abs/1711.00165>`_ between deep learning and GPs. However, here the task to understand the benefits and shortcomings of each method in solving a real-world problem. What can you get from GP that you cannot get from neural networks? Think predictive uncertainty and input uncertainty. Can the two be combined?
+
+Computing Resources
+===================
+All students will access to a GPU-enabled node. To access the resource do the following:
+
+1. Go to the following link from your browser::
+
+       https://rdweb.wvd.microsoft.com/webclient/index.html
+2. Use your `<UBIT ID>@buffalo.edu` email address and password to login.
+
+   .. warning:: You will have to go through the DUO two-factor authentication process to login.
+3. Choose either `Jupyter Lab` or `Jupyter Notebook` resource from the following page. You will be asked to authenticate again using your UB email and password.
+4. You can now create new notebooks and utilize the resource.  
+
+   .. note:: While the Python environment has several relevant libraries, such as ``numpy``, ``pandas`, ``matplotlib``, ``GPy``, ``scikit-learn``, ``GPFlow``, ``Tensorflow+Keras``, contact me if you need any additional libraries.
+5. You can use the **One Drive** resource to upload data files to the environment. The resource is available from your browser by going to::
+
+        https://onedrive.live.com/about/en-us/signin/
+
+   You will have to go through the same authentication process to get to the drive. You can upload (or download) data here. This folder is accessible in the above cloud environment as the following directory::
+
+        OneDrive - University at Buffalo
