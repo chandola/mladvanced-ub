@@ -42,6 +42,25 @@ All students will access to a GPU-enabled node. To access the resource do the fo
 
         https://onedrive.live.com/about/en-us/signin/
 
-   You will have to go through the same authentication process to get to the drive. You can upload (or download) data here. This folder is accessible in the above cloud environment as the following directory::
+6. You will have to go through the same authentication process to get to the drive. You can upload (or download) data here. This folder is accessible in the above cloud environment as the following directory::
 
         OneDrive - University at Buffalo
+
+*****************
+Using TensorFlow
+*****************
+
+In order to manage the memory of the virtual node, please include the following after importing ``tensorflow``
+::
+  import tensorflow as tf
+  gpus = tf.config.experimental.list_physical_devices('GPU')
+
+  if gpus:
+     # Restrict TensorFlow to only allocate 1GB of memory to the first GPU
+     try:
+        tf.config.experimental.set_virtual_device_configuration(gpus[0],[tf.config.experimental.VirtualDeviceConfiguration(memory_limit=711)])
+        logical_gpus = tf.config.experimental.list_logical_devices('GPU')
+        print(len(gpus),"Physical GPUs,",len(logical_gpus),"Logical GPUS")
+     except RunTimeError as e:
+        # Virtual devices must be set before GPUs have been initialized
+        print(e) 
